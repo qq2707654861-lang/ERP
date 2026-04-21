@@ -1,0 +1,1701 @@
+[2026-04-15 09:41:59] 程序主入口未处理异常
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3426, in main
+    gui = OrderManagerGUI(db)
+          ^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1620, in __init__
+    self.build_ui()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1684, in build_ui
+    _build_dashboard_tab = _load_builder("dashboard")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1681, in _load_builder
+    spec.loader.exec_module(module)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\自动同步\\张强的\\网店\\知护\\知护结算\\jiesuan\\JS\\zhihu_order_manager\\pages\\dashboard.py'
+
+[2026-04-15 09:42:08] 程序主入口未处理异常
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3426, in main
+    gui = OrderManagerGUI(db)
+          ^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1620, in __init__
+    self.build_ui()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1684, in build_ui
+    _build_dashboard_tab = _load_builder("dashboard")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1681, in _load_builder
+    spec.loader.exec_module(module)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\自动同步\\张强的\\网店\\知护\\知护结算\\jiesuan\\JS\\zhihu_order_manager\\pages\\dashboard.py'
+
+[2026-04-15 10:24:55] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 86, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="manual"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:24:57] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:25:17] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 86, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="manual"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:25:40] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:27:40] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:27:43] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:27:47] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:30:52] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 10:51:08] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\pages\status.py", line 81, in <lambda>
+    command=lambda current_tree=tree: gui.smart_procurement(current_tree, mode="auto"),
+                                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderManagerGUI' object has no attribute 'smart_procurement'
+
+[2026-04-15 12:23:12] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2011, in <lambda>
+    self.root.after(0, lambda: on_complete(result, error))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2706, in on_complete
+    refresh_tree()
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2642, in refresh_tree
+    for item in tree.get_children():
+                ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\ttk.py", line 1195, in get_children
+    self.tk.call(self._w, "children", item or '') or ())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: invalid command name ".!toplevel.!toplevel2.!frame.!labelframe2.!treeview"
+
+[2026-04-15 12:53:08] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2047, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2974, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2789, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2612, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1103, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 20660 and this is thread id 25556.
+
+[2026-04-15 13:19:42] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2071, in <lambda>
+    self.root.after(0, lambda: on_complete(result, error))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3029, in on_complete
+    refresh_tree()
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2926, in refresh_tree
+    for item in tree.get_children():
+                ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\ttk.py", line 1195, in get_children
+    self.tk.call(self._w, "children", item or '') or ())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: invalid command name ".!toplevel4.!toplevel.!frame.!labelframe3.!treeview"
+
+[2026-04-15 13:29:55] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2066, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3038, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2829, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2652, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1118, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 25028 and this is thread id 27092.
+
+[2026-04-15 19:32:21] 后台任务执行失败
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2066, in worker
+    result = target()
+             ^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2124, in task
+    package_ready = self._is_playwright_package_available()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2082, in _is_playwright_package_available
+    return importlib.util.find_spec("playwright.sync_api") is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib.util>", line 91, in find_spec
+ModuleNotFoundError: No module named 'playwright'
+
+[2026-04-15 19:32:21] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "C:\ProgramData\Accio\pre-install\2186c6e1bbb5\python\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\Accio\pre-install\2186c6e1bbb5\python\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2079, in auto_check_taobao_login_state_validity
+    self.check_taobao_login_state_validity_async(silent=True, trigger_source="程序启动自动检测")
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2246, in check_taobao_login_state_validity_async
+    if not self.ensure_playwright_ready():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2170, in ensure_playwright_ready
+    package_ready = self._is_playwright_package_available()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2082, in _is_playwright_package_available
+    return importlib.util.find_spec("playwright.sync_api") is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib.util>", line 91, in find_spec
+ModuleNotFoundError: No module named 'playwright'
+
+[2026-04-15 20:07:13] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2071, in <lambda>
+    self.root.after(0, lambda: on_complete(result, error))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3051, in on_complete
+    refresh_tree()
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2947, in refresh_tree
+    for item in tree.get_children():
+                ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\ttk.py", line 1195, in get_children
+    self.tk.call(self._w, "children", item or '') or ())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: invalid command name ".!toplevel.!toplevel2.!frame.!labelframe3.!treeview"
+
+[2026-04-15 20:48:55] Tkinter 未处理异常
+Traceback (most recent call last):
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2088, in <lambda>
+    self.root.after(0, lambda: on_complete(result, error))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3129, in on_complete
+    refresh_tree()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3025, in refresh_tree
+    for item in tree.get_children():
+                ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\tkinter\ttk.py", line 1195, in get_children
+    self.tk.call(self._w, "children", item or '') or ())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: invalid command name ".!toplevel2.!toplevel.!frame.!labelframe3.!treeview"
+
+[2026-04-15 21:32:55] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2083, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2324, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-15 22:30:51] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2334, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-15 23:02:17] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3404, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3195, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3018, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1124, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 18504 and this is thread id 24744.
+
+[2026-04-15 23:07:13] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3461, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3252, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3075, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1124, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 24712 and this is thread id 31236.
+
+[2026-04-15 23:07:16] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSRQkfS-7d5P6Mpqcp1HpFrsPCYXVE36KT4iOrayOGQwDA1P
+
+[2026-04-15 23:07:19] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3461, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3252, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3075, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1124, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 24712 and this is thread id 30344.
+
+[2026-04-15 23:07:44] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2956, in task
+    active_pages[-1].wait_for_timeout(1000)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:08:21] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4YbD82goC_ioY98FDlzTpfNeRYXBMHjJHs2OTkHREKoIJPF
+
+[2026-04-15 23:10:19] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2956, in task
+    active_pages[-1].wait_for_timeout(1000)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:13:21] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2334, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-15 23:13:58] 采购辅助下单：已点击立即购买，URL=https://detail.tmall.com/item.htm?abbucket=20&id=665621498701&mi_id=0000nfCYW4C9oe8XF4hr90yCApwyVl4Is7wr2BKPRiILBtw&ns=1&priceTId=2147bffc17762660051777329e11c4&skuId=5947734431845
+
+[2026-04-15 23:14:14] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3519, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3310, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3133, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1124, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 31952 and this is thread id 29408.
+
+[2026-04-15 23:14:22] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3013, in task
+    active_pages[-1].wait_for_timeout(1000)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:14:34] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665986955369&spm=pc_detail.30350276&mi_id=0000gIm-x4_0sbSL4BLByiUMurxmqg6Js-mGJ1b-1asEpPOTyN3xXMBbXqJTX8WJ0Agh
+
+[2026-04-15 23:15:01] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3013, in task
+    active_pages[-1].wait_for_timeout(1000)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:18:59] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCAaZ_5wcK6GxzGRJN9oHojdsAMI9jpZzVE_HF2wln_M01pm
+
+[2026-04-15 23:21:02] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3125, in task
+    pass
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:22:36] 采购辅助下单：未找到立即购买按钮，URL=https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=https%3a%2f%2fdetail.tmall.com:443/wow/z/app/tbpc/pc-detail-ssr-2025/home%2F_____tmd_____%2Fpage%2Flog
+
+[2026-04-15 23:24:10] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk95FefDjiQBhfhsGVUUhK8gVVGKafaMTytN6nDfnRTT3qd1
+
+[2026-04-15 23:24:14] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:14] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:14] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=663322792090&spm=pc_detail.30350276&mi_id=0000UQSqeLfT-U1vcWpSUk9] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:14] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北
+
+[2026-04-15 23:24:31] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYvPneKKSL0bNv2REqaNB2_DKgyk4kN84Rw-pOMLc-HIDcks
+
+[2026-04-15 23:24:34] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:34] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:34] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=563486911815&spm=pc_detail.30350276&mi_id=0000Ldi1dufiilNwyELtuYv] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:24:34] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北
+
+[2026-04-15 23:29:00] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvmpOIJe_3Ie0BumHr6hUqtCtvdtgzPlcGI0NuWVAFLeqcoT
+
+[2026-04-15 23:29:07] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:29:07] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:29:07] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=662819472694&spm=pc_detail.30350276&mi_id=0000fZWuFJzvfn6td1SYhvm] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:29:07] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北
+
+[2026-04-15 23:29:28] 采购辅助下单：已点击立即购买，URL=https://detail.tmall.com/item.htm?abbucket=20&id=662820216015&mi_id=0000_PwFcRHAkH-SoVxODBZW2ioi8XGDtR5REi8xUeH1DCg&ns=1&priceTId=214782b317762669225982088e12ca&spm=a21n57.1.item.1
+
+[2026-04-15 23:29:42] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2089, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3169, in task
+    checkout_page.wait_for_timeout(1800)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+
+[2026-04-15 23:29:54] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oiy2myc1TEG7IahnCXAnXxNAFr0Wr1xdxfZiUQ12P_wUDOM
+
+[2026-04-15 23:30:01] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:01] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:01] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=980267034506&spm=pc_detail.30350276&mi_id=0000rglQyCxXbm4kJROZ9Oi] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:01] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北
+
+[2026-04-15 23:30:14] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Keg86wGGyu64lefVERzdxikgVVmDr67lPM_t3iNv7qfQLHO
+
+[2026-04-15 23:30:21] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:21] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:21] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=966958915673&spm=pc_detail.30350276&mi_id=000073zC5gT7_YAwHXBG3Ke] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北
+
+[2026-04-15 23:30:21] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 山东省 青岛市 即墨区 通济街道 山东省青岛市即墨区通济街道鹤山路288号(利群家电即墨商场对面) 青岛当代妇产医院 , 18466349347-9672 , 王静 9672 18466349347 河北省 石家庄市 行唐县 龙州镇 升仙桥北
+
+[2026-04-16 10:28:23] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCAaZxnGUcG80YvBgN3D7kPqWyUAb2HCukXRFyPfRpekU6cj
+
+[2026-04-16 10:28:30] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:28:30] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:28:30] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:28:30] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 10:29:36] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCAaZ_qAxiR7ssGou_IUJB_iclIJM9FL7apk7V6ckoqlnz-u
+
+[2026-04-16 10:29:42] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:29:42] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:29:42] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:29:42] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 10:32:23] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCAaZ8DyKY8pFSmVX2kEDAyKVtCZFtDmzY4hLUgrVL6dvUoN
+
+[2026-04-16 10:32:30] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:32:30] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:32:30] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:32:30] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 10:46:04] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2118, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3751, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3542, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3361, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1151, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 288 and this is thread id 22940.
+
+[2026-04-16 10:48:21] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2118, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3751, in task
+    return self._fetch_taobao_search_results(order_row, current_keyword)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3542, in _fetch_taobao_search_results
+    local_results = self._get_local_procurement_search_results(order_row, search_keyword)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 3361, in _get_local_procurement_search_results
+    rows.extend(self.db.list_procurement_products(keyword))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 1151, in list_procurement_products
+    return list(self.conn.execute(sql, params))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 288 and this is thread id 15216.
+
+[2026-04-16 10:55:17] 采购搜索未抓到天猫结果：query=9787521403763; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787521403763&sort=price-asc&tab=mall | query=9787521403763 精神障碍康复与护理 崔勇、许冬梅 主编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787521403763%20%E7%B2%BE%E7%A5%9E%E9%9A%9C%E7%A2%8D%E5%BA%B7%E5%A4%8D%E4%B8%8E%E6%8A%A4%E | query=精神障碍康复与护理 崔勇、许冬梅 主编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E7%B2%BE%E7%A5%9E%E9%9A%9C%E7%A2%8D%E5%BA%B7%E5%A4%8D%E4%B8%8E%E6%8A%A4%E7%90%86%20%E5%B4
+
+[2026-04-16 10:55:40] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSRQkVZPh5c7FqUoXanRttSyJUi9fCyQfUQQ3q3rjEVBs5V5
+
+[2026-04-16 10:55:47] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:55:47] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:55:47] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=577499575505&spm=pc_detail.30350276&mi_id=0000L4BvJnfO5m9Y4og7HSR] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:55:47] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 10:56:51] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4YbD-CTYLUa6ojgGbQXatg4Jy_ji1zfl5_pOQdcF9H1dWFr
+
+[2026-04-16 10:56:57] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:56:57] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:56:57] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=685158582830&spm=pc_detail.30350276&mi_id=0000StGsDEV1caobJAnPS4Y] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 10:56:57] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 10:58:49] 采购辅助下单：未找到立即购买按钮，URL=https://detail.tmall.com/item.htm?id=665621498701&ns=1&abbucket=6&xxc=taobaoSearch&mi_id=0000h54qMLTXqwxXnvDkAezlfJSZzz5k3LsXXyl71DkNVds&skuId=5947734431845&priceTId=213e01cf177630
+
+[2026-04-16 11:06:21] 采购辅助下单：已点击立即购买，URL=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCAaZ91R1JCM1ZIDA344qNHBuzhBmb9MPjIQXzsLDD0MWC-z
+
+[2026-04-16 11:06:27] 采购辅助下单地址上下文[before_edit_snapshot]
+[before-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[before-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 11:06:27] 采购辅助下单地址上下文[after_edit_snapshot]
+[after-edit|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[after-edit|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 11:06:27] 采购辅助下单地址上下文[debug_snapshot]
+[fill-failed|frame=0|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+[fill-failed|frame=1|name=main|url=https://buy.tmall.com/order/confirm_order.htm?x-itemid=665621498701&spm=pc_detail.30350276&mi_id=0000gAghOQaHPSPrPAPUWCA] 确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国体育彩票 李丽 18937131286 广东省 深圳市 福田区 华强北街道 远望
+
+[2026-04-16 11:06:27] 采购辅助下单地址上下文[snippet]
+确认订单 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国 || 确认收货地址 使用新地址 管理地址 默认 河北省 廊坊市 固安县 宫村镇 宫村镇东马村 张张 18937654861 新疆维吾尔自治区 石河子市 石河子镇 新疆维吾尔自治区自治区直辖县级行政区划石河子市13小区61栋351 , 18400916533-0034 , 李孝艳 0034 18400916533 河北省 石家庄市 行唐县 龙州镇 升仙桥北60米中国
+
+[2026-04-16 11:20:06] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2118, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2366, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-16 15:57:43] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 15:58:58] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 15:59:12] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 16:08:37] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 16:19:42] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 16:36:36] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 16:38:32] 采购搜索未抓到天猫结果：query=9787559121738; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738&sort=price-asc&tab=mall | query=9787559121738 最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=9787559121738%20%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E | query=最新护理文书书写基本规范 第2版 杨靓 康慧鑫 等编; state=中国大陆
+
+亲，请登录
+免费注册
+网页无障碍
+淘宝网首页
+已买到的宝贝
+我的淘宝
+
+
+购物车
+
+收藏夹
+
+免费开店
+
+千牛卖家中心
+
+帮助中心
+
+搜索
+搜同款
+搜索
+搜同款
+所有宝贝
+天猫
+淘宝
+店铺
+企业购
+发货地
+1
+/; url=https://s.taobao.com/search?q=%E6%9C%80%E6%96%B0%E6%8A%A4%E7%90%86%E6%96%87%E4%B9%A6%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC
+
+[2026-04-16 16:55:18] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2113, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2361, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-16 22:37:31] 后台任务执行失败
+Traceback (most recent call last):
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2091, in worker
+    result = target()
+             ^^^^^^^^
+  File "f:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\zhihu_order_manager.py", line 2339, in task
+    title = safe_text(page.title())
+                      ^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9848, in title
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.title()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_page.py", line 824, in title
+    return await self._main_frame.title()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 882, in title
+    return await self._channel.send("title", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.title: Execution context was destroyed, most likely because of a navigation
+
+[2026-04-21 09:58:30] Unhandled exception: table operation_logs has no column named operation
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 78, in <module>
+    main()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 71, in main
+    sys.exit(smoke_test(args.seed_demo))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 50, in smoke_test
+    db.log_operation("smoke_test", "Smoke test completed")
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\src\database\manager.py", line 331, in log_operation
+    cursor.execute(
+sqlite3.OperationalError: table operation_logs has no column named operation
+
+[2026-04-21 09:58:58] Unhandled exception: table operation_logs has no column named operation
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 78, in <module>
+    main()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 71, in main
+    sys.exit(smoke_test(args.seed_demo))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 50, in smoke_test
+    db.log_operation("smoke_test", "Smoke test completed")
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\src\database\manager.py", line 331, in log_operation
+    cursor.execute(
+sqlite3.OperationalError: table operation_logs has no column named operation
+
+[2026-04-21 10:08:10] Unhandled exception: Index must be int or string
+Traceback (most recent call last):
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 78, in <module>
+    main()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 73, in main
+    run_gui()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\main.py", line 32, in run_gui
+    app = OrderManagerGUI(root, db)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\src\gui\main_window.py", line 30, in __init__
+    self.orders_tab = OrdersTab(self.notebook, self.db)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\src\gui\tabs\orders_tab.py", line 24, in __init__
+    self.refresh_table()
+  File "F:\自动同步\张强的\网店\知护\知护结算\jiesuan\JS\zhihu_order_manager\src\gui\tabs\orders_tab.py", line 114, in refresh_table
+    order[col] if col != "checked" else ""
+    ~~~~~^^^^^
+IndexError: Index must be int or string
+

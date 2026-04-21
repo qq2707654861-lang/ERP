@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "C:\\ProgramData\\Accio\\pre-install\\2186c6e1bbb5\\python\\python.exe",
+    "python.defaultInterpreterPath": "C:\\ProgramData\\Accio\\pre-install\\2186c6e1bbb5\\python\\python.exe",
+    "python.terminal.activateEnvironment": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
