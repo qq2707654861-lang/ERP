@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local runtime artifacts
+*.log
+*.tmp
+@AutomationLog.txt
+
+# Local agent/editor state
+.claude/
+
+# Local database files
+ERP.db
+zhihu_order_manager.db
+*.db-journal
+
+# Playwright local browser profile/cache
+playwright_taobao_profile/
+
+# OS/editor
+.DS_Store
+Thumbs.db
