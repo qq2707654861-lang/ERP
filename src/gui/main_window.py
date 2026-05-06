@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-Main GUI Window for Zhihu Order Manager
+Main GUI Window for ERP Order Manager
 Inspired by Claude Code architecture - GUI layer isolated
 """
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from typing import Optional
 
-from src.database.manager import ZhihuOrderDB
+from src.database.manager import ERPOrderDB
 from src import constants
 
 
 class OrderManagerGUI:
-    def __init__(self, root: tk.Tk, db: ZhihuOrderDB):
+    def __init__(self, root: tk.Tk, db: ERPOrderDB):
         self.root = root
         self.db = db
         self.root.title(constants.APP_TITLE)

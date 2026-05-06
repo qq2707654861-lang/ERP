@@ -1,2 +1,2 @@
 # Database package
-from .manager import ZhihuOrderDB
+from .manager import ERPOrderDB, ZhihuOrderDB

@@ -6,12 +6,12 @@ Inspired by Claude Code architecture - each tab in separate file
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 
-from src.database.manager import ZhihuOrderDB
+from src.database.manager import ERPOrderDB
 from src import constants
 
 
 class SettingsTab:
-    def __init__(self, parent: ttk.Notebook, db: ZhihuOrderDB):
+    def __init__(self, parent: ttk.Notebook, db: ERPOrderDB):
         self.db = db
         self.frame = ttk.Frame(parent)
         self.setup_ui()

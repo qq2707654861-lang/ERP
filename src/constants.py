@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Constants for Zhihu Order Manager
+Constants for ERP Order Manager
 Inspired by Claude Code architecture - all constants in one place
 """
 
-APP_TITLE = "知护图书订单管理系统"
+APP_TITLE = "ERP订单管理系统"
 
 # Order grid columns
 ORDER_GRID_COLUMNS = [

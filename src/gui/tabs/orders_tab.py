@@ -6,7 +6,7 @@ Inspired by Claude Code architecture - each tab in separate file
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 
-from src.database.manager import ZhihuOrderDB
+from src.database.manager import ERPOrderDB
 from src import constants
 from src.parsers.order_parser import (
     read_xlsx_raw_sheets,
@@ -17,7 +17,7 @@ from src.parsers.order_parser import (
 
 
 class OrdersTab:
-    def __init__(self, parent: ttk.Notebook, db: ZhihuOrderDB):
+    def __init__(self, parent: ttk.Notebook, db: ERPOrderDB):
         self.db = db
         self.frame = ttk.Frame(parent)
         self.setup_ui()

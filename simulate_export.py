@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import importlib.util, pathlib, datetime, os
-p = pathlib.Path(__file__).resolve().parent / 'zhihu_order_manager.py'
-spec = importlib.util.spec_from_file_location('zhihu_mod', p)
+p = pathlib.Path(__file__).resolve().parent / 'ERP.py'
+spec = importlib.util.spec_from_file_location('erp_mod', p)
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
-fn = f'知护回告_{datetime.datetime.now().strftime("%Y%m%d")}.xlsx'
+fn = f'ERP回告_{datetime.datetime.now().strftime("%Y%m%d")}.xlsx'
 out = pathlib.Path(mod.get_base_dir()) / fn
 print('默认导出文件名:', out)
 # 执行一次导出（空数据），写入并删除以模拟导出流程

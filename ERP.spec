@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['zhihu_order_manager.py'],
+    ['ERP.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='知护订单管理系统',
+    name='ERP订单管理系统',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

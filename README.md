@@ -1,9 +1,9 @@
-# 知护图书订单管理系统（Python MVP）
+# ERP 订单管理系统（Python MVP）
 
 ## 运行方式
 
 ```bash
-python zhihu_order_manager.py
+python ERP.py
 ```
 
 如需使用淘宝 Cookie 登录采购助手，建议先安装依赖：
@@ -33,7 +33,7 @@ python -m playwright install chromium
 ## 快速验证
 
 ```bash
-python zhihu_order_manager.py --smoke-test --seed-demo 表格.xlsx
+python ERP.py --smoke-test --seed-demo 表格.xlsx
 ```
 
 这会自动初始化数据库，并导入当前目录下的 `表格.xlsx` 进行验证。

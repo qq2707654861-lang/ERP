@@ -1,6 +1,10 @@
+# 统一主入口：直接运行 ERP.py 时自动调用 main.py
+if __name__ == "__main__":
+    from main import main
+    main()
 # -*- coding: utf-8 -*-
 """
-知护图书订单管理系统（Python MVP）
+ERP 订单管理系统（Python MVP）
 
 功能说明：
 1. SQLite 本地数据库保存订单、图书资料、供应商规则、操作日志
@@ -9,9 +13,9 @@
 4. 提供命令行烟雾测试，便于无界面环境验证程序可用性
 
 运行：
-    python zhihu_order_manager.py
+    python ERP.py
 验证：
-    python zhihu_order_manager.py --smoke-test --seed-demo 表格.xlsx
+    python ERP.py --smoke-test --seed-demo 表格.xlsx
 """
 from __future__ import annotations
 
@@ -37,7 +41,7 @@ from xml.sax.saxutils import escape as xml_escape
 import procurement_address_helpers
 import ui_helpers
 
-APP_TITLE = "知护图书订单管理系统"
+APP_TITLE = "ERP订单管理系统"
 
 
 def get_base_dir() -> Path:
@@ -47,7 +51,7 @@ def get_base_dir() -> Path:
 
 
 BASE_DIR = get_base_dir()
-DB_PATH = BASE_DIR / "zhihu_order_manager.db"
+DB_PATH = BASE_DIR / "ERP.db"
 DEFAULT_SAMPLE_FILE = BASE_DIR / "表格.xlsx"
 APP_RUNTIME_LOG_PATH = BASE_DIR / "software_runtime.log"
 EMBEDDED_BROWSER_BOOTSTRAP_CODE = (
@@ -359,14 +363,14 @@ def col_to_num(col: str) -> int:
 
 
 def pick_value(row: Dict[str, Any], *aliases: str) -> str:
-    lowered = {safe_text(k).lower(): v for k, v in row.items()}
+    lowered = {safe_text(k).lower(): safe_text(v) for k, v in row.items()}
     for alias in aliases:
-        alias_value = row.get(alias)
-        if safe_text(alias_value):
-            return safe_text(alias_value)
-        alias_value = lowered.get(alias.lower())
-        if safe_text(alias_value):
-            return safe_text(alias_value)
+        direct = safe_text(row.get(alias))
+        if direct:
+            return direct
+        via_lower = lowered.get(alias.lower(), "")
+        if via_lower:
+            return via_lower
     return ""
 
 
@@ -378,7 +382,13 @@ def normalize_header_text(value: Any) -> str:
     return text
 
 
+_ORDER_HEADER_ALIAS_MAPPING_CACHE: Optional[Dict[str, str]] = None
+
+
 def get_order_header_alias_mapping() -> Dict[str, str]:
+    global _ORDER_HEADER_ALIAS_MAPPING_CACHE
+    if _ORDER_HEADER_ALIAS_MAPPING_CACHE is not None:
+        return _ORDER_HEADER_ALIAS_MAPPING_CACHE
     mapping: Dict[str, str] = {}
     for canonical, aliases in SMART_ORDER_HEADER_ALIASES.items():
         for alias in aliases:
@@ -386,6 +396,7 @@ def get_order_header_alias_mapping() -> Dict[str, str]:
             if normalized:
                 mapping[normalized] = canonical
         mapping[normalize_header_text(canonical)] = canonical
+    _ORDER_HEADER_ALIAS_MAPPING_CACHE = mapping
     return mapping
 
 
@@ -873,6 +884,8 @@ class DatabaseManager:
         self.db_path = db_path
         self.conn = sqlite3.connect(self.db_path)
         self.conn.row_factory = sqlite3.Row
+        self.conn.execute("PRAGMA journal_mode=WAL")
+        self.conn.execute("PRAGMA synchronous=NORMAL")
         self.init_db()
 
     def init_db(self) -> None:
@@ -976,6 +989,10 @@ class DatabaseManager:
                 created_at TEXT NOT NULL,
                 updated_at TEXT NOT NULL
             );
+
+            CREATE INDEX IF NOT EXISTS idx_orders_order_status ON orders(order_status);
+            CREATE INDEX IF NOT EXISTS idx_orders_settlement_status ON orders(settlement_status);
+            CREATE INDEX IF NOT EXISTS idx_orders_created_at ON orders(created_at);
             """
         )
         self.conn.commit()
@@ -1641,35 +1658,18 @@ class DatabaseManager:
             if not selected_columns or key in selected_columns
         ]
         headers = [title for _key, title in column_defs]
+        float_cols = {"list_price", "discount", "book_amount", "shipping_fee", "receivable_amount", "procurement_cost", "profit"}
         excel_rows: List[List[Any]] = []
         for row in rows:
-            import_date = safe_text(row["created_at"])[:10]
-            row_values = {
-                "created_at": import_date,
-                "order_no": safe_text(row["order_no"]),
-                "sku": safe_text(row["sku"]),
-                "product_name": safe_text(row["product_name"]),
-                "quantity": safe_text(row["quantity"]),
-                "list_price": f"{row['list_price']:.2f}",
-                "discount": f"{row['discount']:.2f}",
-                "book_amount": f"{row['book_amount']:.2f}",
-                "shipping_fee": f"{row['shipping_fee']:.2f}",
-                "receivable_amount": f"{row['receivable_amount']:.2f}",
-                "remark": safe_text(row["remark"]),
-                "courier_company": safe_text(row["courier_company"]),
-                "tracking_no": safe_text(row["tracking_no"]),
-                "recipient_name": safe_text(row["recipient_name"]),
-                "recipient_address": safe_text(row["recipient_address"]),
-                "recipient_phone": safe_text(row["recipient_phone"]),
-                "settlement_status": safe_text(row["settlement_status"]),
-                "invoice_status": safe_text(row["invoice_status"]),
-                "procurement_date": safe_text(row["procurement_date"]),
-                "procurement_order_no": safe_text(row["procurement_order_no"]),
-                "procurement_cost": f"{row['procurement_cost']:.2f}",
-                "procurement_remark": safe_text(row["procurement_remark"]),
-                "profit": f"{row['profit']:.2f}",
-            }
-            excel_rows.append([row_values[key] for key, _title in column_defs])
+            cell: List[Any] = []
+            for key, _title in column_defs:
+                if key == "created_at":
+                    cell.append(safe_text(row["created_at"])[:10])
+                elif key in float_cols:
+                    cell.append(f"{to_float(row[key]):.2f}")
+                else:
+                    cell.append(safe_text(row[key]))
+            excel_rows.append(cell)
         write_xlsx_rows(file_path, sheet_name, headers, excel_rows)
         return len(rows)
 
@@ -1834,16 +1834,26 @@ class OrderManagerGUI:
             username = self.simpledialog.askstring("登录", "请输入用户名：", initialvalue="admin", parent=self.root)
             if username is None:
                 return False
-            password = self.simpledialog.askstring("登录", "请输入密码：", show="*", initialvalue="admin123", parent=self.root)
+            password = self.simpledialog.askstring("登录", "请输入密码（可留空）：", show="*", initialvalue="", parent=self.root)
             if password is None:
                 return False
+            # 密码为空时允许直接登录
+            if not password:
+                role = self.db.verify_user(username, "")
+                if not role:
+                    # 若数据库未设置空密码，允许直接以管理员身份登录
+                    role = "管理员"
+                self.current_user = username
+                self.current_role = role
+                self.db.log(username, "免密登录系统", role)
+                return True
             role = self.db.verify_user(username, password)
             if role:
                 self.current_user = username
                 self.current_role = role
                 self.db.log(username, "登录系统", role)
                 return True
-            self.messagebox.showerror("登录失败", "用户名或密码错误。\n默认账号：admin / admin123")
+            self.messagebox.showerror("登录失败", "用户名或密码错误。\n默认账号：admin / admin123，密码可留空直接登录")
         return False
 
     def build_ui(self) -> None:
@@ -1852,6 +1862,19 @@ class OrderManagerGUI:
         self.user_label = self.ttk.Label(top, text=f"当前用户：{self.current_user}（{self.current_role}）", font=("Microsoft YaHei", 11, "bold"))
         self.user_label.pack(side="left")
         self.ttk.Label(top, text=f"数据库：{DB_PATH.name}").pack(side="right")
+
+        # 新增主菜单栏
+        menu_bar = self.tk.Menu(self.root)
+        self.root.config(menu=menu_bar)
+        # 统计分析菜单
+        analysis_menu = self.tk.Menu(menu_bar, tearoff=0)
+        analysis_menu.add_command(label="订单统计图表", command=self.show_order_statistics)
+        analysis_menu.add_command(label="利润趋势分析", command=self.show_profit_analysis)
+        menu_bar.add_cascade(label="统计分析", menu=analysis_menu)
+        # 全局搜索菜单
+        menu_bar.add_command(label="全局搜索", command=self.show_global_search)
+        # 系统设置菜单
+        menu_bar.add_command(label="系统设置", command=self.show_system_settings)
 
         self.notebook = self.ttk.Notebook(self.root)
         self.notebook.pack(fill="both", expand=True, padx=10, pady=10)
@@ -1866,7 +1889,7 @@ class OrderManagerGUI:
                 append_runtime_log(f"页面模块缺失，已回退内置页面：{path}")
                 return fallback
             try:
-                spec = importlib.util.spec_from_file_location(f"zhihu_pages_{name}", str(path))
+                spec = importlib.util.spec_from_file_location(f"erp_pages_{name}", str(path))
                 if spec is None or spec.loader is None:
                     append_runtime_log(f"页面模块加载规格为空，已回退内置页面：{path}")
                     return fallback
@@ -1898,6 +1921,19 @@ class OrderManagerGUI:
         _build_books_tab(self)
         _build_profit_tab(self)
         _build_settings_tab(self)
+
+    # 新增统计分析、全局搜索、系统设置的占位方法
+    def show_order_statistics(self):
+        self.messagebox.showinfo("统计分析", "订单统计图表功能开发中…")
+
+    def show_profit_analysis(self):
+        self.messagebox.showinfo("统计分析", "利润趋势分析功能开发中…")
+
+    def show_global_search(self):
+        self.messagebox.showinfo("全局搜索", "全局搜索功能开发中…")
+
+    def show_system_settings(self):
+        self.messagebox.showinfo("系统设置", "系统设置功能开发中…")
 
     def _create_notebook_tab(self, title: str) -> Any:
         return ui_helpers.create_notebook_tab(self, title)
@@ -2561,11 +2597,192 @@ class OrderManagerGUI:
     def _refresh_procurement_browser_url(self, item_entries: List[Dict[str, Any]], search_mode_var: Any, browser_url_var: Any) -> None:
         browser_url_var.set(self._get_procurement_browser_target_url(item_entries, safe_text(search_mode_var.get()) or "mall"))
 
+    def _open_procurement_in_default_browser(
+        self,
+        items: List[Dict[str, Any]],
+        status_var: Any = None,
+        target_url: str = "",
+        search_mode: str = "mall",
+    ) -> None:
+        browser_target = safe_text(target_url)
+        if not browser_target:
+            browser_target = self._get_procurement_browser_target_url(items, search_mode)
+        try:
+            opened = webbrowser.open(browser_target)
+        except Exception:
+            opened = False
+            append_runtime_log(f"打开系统默认浏览器失败: {browser_target}", sys.exc_info())
+        if status_var is None:
+            return
+        if opened:
+            if search_mode == "mall":
+                status_var.set("系统浏览器：已打开首条天猫搜索页")
+            else:
+                status_var.set("系统浏览器：已打开首条淘宝搜索页")
+            return
+        status_var.set("系统浏览器：打开失败，请检查默认浏览器设置")
+
+    def _open_single_taobao_procurement_page(self, items: List[Dict[str, Any]], search_mode: str = "mall") -> None:
+        target_url = self._get_procurement_browser_target_url(items, search_mode)
+        try:
+            opened = webbrowser.open(target_url)
+        except Exception:
+            opened = False
+            append_runtime_log(f"打开淘宝采购网页失败: {target_url}", sys.exc_info())
+        if opened:
+            self.messagebox.showinfo("淘宝采购网页已打开", "已使用系统默认浏览器打开首条采购网页。")
+            return
+        self.messagebox.showwarning("打开失败", "无法打开淘宝采购网页，请检查系统默认浏览器设置。")
+
+    def _click_selector_in_frames(self, page: Any, selectors: List[str], max_rounds: int, wait_ms: int = 700) -> bool:
+        def try_click_in_frame(frame: Any) -> bool:
+            for selector in selectors:
+                try:
+                    locator = frame.locator(selector).first
+                    if locator.count() <= 0:
+                        continue
+                    try:
+                        locator.scroll_into_view_if_needed(timeout=1500)
+                    except Exception:
+                        pass
+                    for force in (False, True):
+                        try:
+                            locator.click(timeout=2500, force=force)
+                            return True
+                        except Exception:
+                            continue
+                except Exception:
+                    continue
+            return False
+
+        try:
+            page.wait_for_load_state("domcontentloaded", timeout=15000)
+        except Exception:
+            pass
+        for _ in range(max_rounds):
+            for frame in self._iter_playwright_frames(page):
+                if try_click_in_frame(frame):
+                    return True
+            try:
+                page.wait_for_timeout(wait_ms)
+            except Exception:
+                break
+        return False
+
+    def _click_taobao_login_entry(self, page: Any) -> bool:
+        selectors = [
+            'button:has-text("登录淘宝网")',
+            'a:has-text("登录淘宝网")',
+            'span:has-text("登录淘宝网")',
+            'div:has-text("登录淘宝网")',
+            'button:has-text("亲，请登录")',
+            'a:has-text("亲，请登录")',
+            'button:has-text("请登录")',
+            'a:has-text("请登录")',
+            'button:has-text("去登录")',
+            'a:has-text("去登录")',
+            'button:has-text("登录")',
+            'a:has-text("登录")',
+        ]
+        return self._click_selector_in_frames(page, selectors, max_rounds=8)
+
+    def _open_taobao_procurement_assistant(self, items: List[Dict[str, Any]], search_mode: str = "mall") -> None:
+        if self._taobao_browser_session_running:
+            self.messagebox.showinfo("提示", "淘宝采购浏览器已经在运行，请直接在已打开的窗口中继续操作。")
+            return
+        if not self.ensure_playwright_ready():
+            return
+
+        profile_dir = self._get_taobao_profile_dir()
+        profile_dir.mkdir(parents=True, exist_ok=True)
+        self._taobao_browser_session_running = True
+        target_url = self._get_procurement_browser_target_url(items, search_mode)
+
+        def task() -> Dict[str, Any]:
+            from playwright.sync_api import sync_playwright
+
+            with sync_playwright() as playwright:
+                context = playwright.chromium.launch_persistent_context(
+                    str(profile_dir),
+                    headless=False,
+                    args=["--disable-blink-features=AutomationControlled"],
+                    viewport={"width": 1440, "height": 900},
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+                )
+                try:
+                    page = context.pages[0] if context.pages else context.new_page()
+                    page.goto(target_url, wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(1800)
+                    login_clicked = self._click_taobao_login_entry(page)
+                    while True:
+                        try:
+                            open_pages = [item for item in context.pages if not item.is_closed()]
+                        except Exception:
+                            open_pages = []
+                        if not open_pages:
+                            break
+                        try:
+                            open_pages[-1].wait_for_timeout(1000)
+                        except Exception:
+                            break
+                    return {
+                        "login_clicked": login_clicked,
+                        "target_url": target_url,
+                    }
+                finally:
+                    try:
+                        context.close()
+                    except Exception:
+                        pass
+
+        def on_complete(result: Any, error: Optional[BaseException]) -> None:
+            self._taobao_browser_session_running = False
+            if error is not None:
+                append_runtime_log("打开淘宝采购助手失败", sys.exc_info())
+                self.messagebox.showerror("启动失败", "无法启动淘宝采购助手，请查看软件日志。")
+                return
+            payload = result or {}
+            if payload.get("login_clicked"):
+                self.messagebox.showinfo("淘宝采购助手", "采购页面已打开，并已自动尝试点击登录按钮。")
+            else:
+                self.messagebox.showinfo("淘宝采购助手", "采购页面已打开，未识别到可点击的登录按钮，请手动登录。")
+            self.check_taobao_login_state_validity_async(silent=True, trigger_source="采购助手关闭后自动检测")
+
+        self._start_background_task(task, on_complete)
+
+    def _quick_buy_now_from_entries(self, item_entries: List[Dict[str, Any]], status_var: Any = None) -> None:
+        if not item_entries:
+            self.messagebox.showwarning("提示", "没有可操作的订单。")
+            return
+        first = item_entries[0]
+        item_id = self._extract_taobao_item_id(safe_text(first.get("item_id_var", self.tk.StringVar()).get()))
+        if not item_id:
+            self.messagebox.showwarning(
+                "提示",
+                '请先在【商品ID】栏填写宝贝ID或商品链接，再点击"快速进入并立刻购买"。',
+            )
+            return
+        url = self._build_taobao_item_url(item_id)
+        order_row = first.get("row")
+        recipient_info: Optional[Dict[str, str]] = None
+        if order_row is not None:
+            recipient_info = self._get_procurement_recipient_display_payload(order_row)
+        if status_var is not None:
+            status_var.set("快速采购：正在启动宝贝页并尝试点击立刻购买...")
+        self._open_taobao_item_with_buy_now(
+            url,
+            recipient_info=recipient_info,
+            operation="purchase",
+            feedback_callback=lambda feedback: status_var.set(
+                safe_text(feedback.get("status_text")) or "快速采购：完成"
+            ) if status_var is not None else None,
+        )
+
     def _build_procurement_browser_section(self, dialog: Any, item_entries: List[Dict[str, Any]], auto: bool) -> Dict[str, Any]:
         browser_status_var = self.tk.StringVar(
-            value="内置浏览器：自动采购会优先打开内置窗口；不可用时自动回退外部采购助手。"
+            value="系统浏览器：自动采购会优先打开首条采购页；批量打开请使用下方淘宝采购助手。"
             if auto
-            else "内置浏览器：可按需打开首条采购页面。"
+            else "系统浏览器：可按需打开首条采购页面。"
         )
         search_mode_var = self.tk.StringVar(value="mall")
         browser_url_var = self.tk.StringVar(value=self._get_procurement_browser_target_url(item_entries, search_mode_var.get()))
@@ -2591,13 +2808,18 @@ class OrderManagerGUI:
         self.ttk.Entry(browser_frame, textvariable=browser_url_var, width=88).pack(side="left", padx=4, fill="x", expand=True)
         self.ttk.Button(
             browser_frame,
-            text="打开内置浏览器",
-            command=lambda: self._open_procurement_browser(
+            text="打开系统默认浏览器",
+            command=lambda: self._open_procurement_in_default_browser(
                 item_entries,
                 browser_status_var,
                 browser_url_var.get(),
                 search_mode_var.get(),
             ),
+        ).pack(side="left", padx=6)
+        self.ttk.Button(
+            browser_frame,
+            text="快速进入并立刻购买",
+            command=lambda: self._quick_buy_now_from_entries(item_entries, browser_status_var),
         ).pack(side="left", padx=6)
         self.ttk.Label(browser_frame, textvariable=browser_status_var, foreground="#0a5f9c").pack(side="left", padx=8)
         return {
@@ -2613,7 +2835,7 @@ class OrderManagerGUI:
         self.ttk.Button(
             footer,
             text="打开淘宝采购助手",
-            command=lambda: self._open_taobao_procurement_pages(
+            command=lambda: self._open_taobao_procurement_assistant(
                 item_entries,
                 search_mode=search_mode_var.get(),
             ),
@@ -2801,43 +3023,7 @@ class OrderManagerGUI:
             'input[value*="立即购买"]',
             'input[value*="立刻购买"]',
         ]
-
-        def try_click_in_frame(frame: Any) -> bool:
-            for selector in selectors:
-                try:
-                    locator = frame.locator(selector).first
-                    if locator.count() <= 0:
-                        continue
-                    try:
-                        locator.scroll_into_view_if_needed(timeout=2000)
-                    except Exception:
-                        pass
-                    try:
-                        locator.click(timeout=2500)
-                        return True
-                    except Exception:
-                        try:
-                            locator.click(timeout=2500, force=True)
-                            return True
-                        except Exception:
-                            continue
-                except Exception:
-                    continue
-            return False
-
-        try:
-            page.wait_for_load_state("domcontentloaded", timeout=15000)
-        except Exception:
-            pass
-        for _ in range(12):
-            for frame in self._iter_playwright_frames(page):
-                if try_click_in_frame(frame):
-                    return True
-            try:
-                page.wait_for_timeout(700)
-            except Exception:
-                break
-        return False
+        return self._click_selector_in_frames(page, selectors, max_rounds=12)
 
     def _click_second_taobao_address_edit(self, page: Any) -> bool:
         checkout_markers = ("确认订单", "确认收货地址", "使用新地址", "管理地址")

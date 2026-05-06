@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Database manager for Zhihu Order Manager
+Database manager for ERP Order Manager
 Inspired by Claude Code architecture - database layer isolated
 """
 import sqlite3
@@ -11,7 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from src.utils.helpers import now_str, to_float
 
 
-class ZhihuOrderDB:
+class ERPOrderDB:
     def __init__(self, db_path: Path):
         self.db_path = db_path
         self.conn = None
@@ -123,7 +123,6 @@ class ZhihuOrderDB:
             )
 
         self.conn.commit()
-
     def _get_where_filter(
         self,
         order_status: Optional[str] = None,
@@ -352,3 +351,7 @@ class ZhihuOrderDB:
     def close(self) -> None:
         if self.conn:
             self.conn.close()
+
+
+# Backward compatibility for older imports
+ZhihuOrderDB = ERPOrderDB
