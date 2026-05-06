@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "启动ERP订单管理系统",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "C:\\ProgramData\\Accio\\pre-install\\2186c6e1bbb5\\python\\python.exe",
+            "program": "${workspaceFolder}/ERP.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
